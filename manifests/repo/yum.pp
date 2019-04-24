@@ -23,7 +23,7 @@ class sensuclassic::repo::yum {
       }
     }
 
-    yumrepo { 'sensu':
+    yumrepo { 'sensuclassic':
       enabled  => 1,
       baseurl  => $url,
       gpgcheck => 0,
