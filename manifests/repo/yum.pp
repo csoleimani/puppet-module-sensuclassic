@@ -27,7 +27,7 @@ class sensuclassic::repo::yum {
       enabled  => 1,
       baseurl  => $url,
       gpgcheck => 0,
-      name     => 'sensu',
+      name     => 'sensuclassic',
       descr    => 'sensu',
       before   => Package[$sensuclassic::package::pkg_title],
     }
